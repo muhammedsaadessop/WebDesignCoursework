@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	CSS Animation</title>
+	<style>	
+	div {
+		width: 100px;
+		height:100px;
+		margin:140px;
+		background-color:green;
+		animation:example 2s linear 2s infinite reverse;
+		}
+	@keyframes example{
+		from {
+			background-color:red
+		}
+		to {
+			background-color:yellow
+		}
+	}
+	</style>
+</head>
+<!--
+	animation-duration:2s;
+		animation-iteration-count:infinite;
+		animation-timing-function:cubic-bezier(0.3,0.4,0.8);
+		animation-direction:alternate-reverse;
+		animation-delay:2s;
+animation-name
+animation-duration
+animation-timing-function
+	ease 			slow start, then fast and then end slow
+	linear 			same speed from start to end
+	ease-in 		slow start
+	ease-out		slow end
+	ease-in-out 	slow start and end
+	cubic-bezier 	user defined(0.3,1,0.2)
+animation-delay
+animation-iteration-count
+animation-direction
+	normal
+	reverse
+	alternate
+	alternate-reverse
+animation( animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction)
+
+-->
+<body>
+	<div>
+		
+	</div>
+	
+	
+</body>
+</html>

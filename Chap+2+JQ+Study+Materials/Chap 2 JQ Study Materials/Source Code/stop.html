@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Selectors</title>
+    <script src="../jq/jquery.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script>
+        $(document).ready(function(){
+         $("#start").click(function(){
+            $("div").fadeIn(5000)
+          
+         });
+            $("#stop").click(function(){
+                $("div").stop();
+            });
+        });
+    </script>
+    <style>
+        div{
+            width:150px;
+            height: 400px;
+            background-color: pink;
+            position:absolute;
+            display: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <button id ="start">Start Animation</button>
+    <button id="stop">Stop</button>
+    <div>Animatio is here</div>
+</body>
+</html>

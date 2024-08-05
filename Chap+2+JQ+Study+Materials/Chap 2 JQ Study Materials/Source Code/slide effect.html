@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Selectors</title>
+    <!-- <script src="jq/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#up").click(function(){
+                $("div").slideToggle(3000);
+            });
+            // $("#down").click(function(){
+            //     $("div").slideDown();
+            // });
+        });
+    </script>
+    <style>
+        div{
+            width:100px;
+            height: 100px;
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <button id="up">Click me to Up</button>
+    <button id="down">Click me to Down</button>
+
+    <div>This is the d2.</div>
+
+
+</body>
+</html>

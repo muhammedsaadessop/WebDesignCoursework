@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Combinators in CSS </title>
+	<style>
+	div h1 span{
+	background-color:gray;
+	}
+	#jafri .para p {
+	background-color:blue;
+	} 
+	div > h1 {
+		color:yellow;
+	}
+	h1 + p {
+		background-color:blue;
+
+	}
+	h1 ~ p{
+		background-color:yellow;
+
+	}
+	</style>
+</head>
+
+	<body>
+	<!--
+	Descendant Selectors
+	Child Selector with greater than sign
+	Adjacent Sibling Selector  with addition sign
+	General Sibling Selector with tilde sign
+	-->
+	<div>
+		<h1>Jafricode.com <span>Span Text</span>	</h1>
+		<h1>Jafricode.com</h1>
+		<p>Jafricode.com <span>Span Text</span> </p>
+	</div>
+	<div id = "jafri">
+			<div class = "para">
+				<p>Jafricode.com</p>
+			</div>
+	</div>
+		<h1>Jafricode.com</h1>
+		<p>Jafricode.com</p>
+		<p>Jafricode.com</p>
+		<p>Jafricode.com</p>
+		<p>Jafricode.com</p>
+		<p>Jafricode.com</p>
+
+	</body>
+
+</html>

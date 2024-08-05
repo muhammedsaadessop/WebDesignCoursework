@@ -1,0 +1,157 @@
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	background-color:#66FFFF;
+}
+#main-wrapper{
+	width:700px;
+	height:auto;
+	background-color:#CCCCFF;
+	margin-top:5px;
+	margin: auto;
+}
+
+@media screen and (max-width:650px) 
+{
+	#main-wrapper{
+		width:100%;
+	}
+	
+}
+
+#header{
+	width:700px;
+	height:150px;
+	background-color:#CC66CC;
+}
+
+@media screen and (max-width:650px) 
+{
+	#header{
+		width:100%;
+	}
+	
+}
+
+
+#nav{
+	width:700px;
+	height:50px;
+	background-color:#000000;
+}
+
+
+@media screen and (max-width:650px) 
+{
+	#nav{
+		width:100%;
+	}
+	
+}
+.navlinks ul{
+	margin:0;
+	padding:0;
+}
+.navlinks li{
+	list-style:none;
+	display:inline;
+}
+.navlinks ul li a{
+	font-size:28px;
+	padding:10px;
+	text-decoration:none; 
+	color:#FFFFFF;
+	line-height:2em;
+}
+
+@media screen and (max-width:650px) {
+	.navlinks ul li a {
+		font-size:19px;
+	}
+	
+}
+
+.navlinks ul li a:hover{
+	color:#00FFFF;
+	text-decoration:underline;
+}
+
+
+@media screen and (max-width:650px) {
+	#cont {
+		width:100%;
+	}
+	
+}
+#maincont{
+	width:500px;
+	height:auto;
+	background-color:#00FFFF;
+	float:left;
+}
+
+@media screen and (max-width:650px) {
+	#maincont {
+		width:100%;
+	}
+	
+}
+
+
+
+.html{  border:1px solid #000000; float:left;}
+.css{ border:1px solid #000000; float:left; border-bottom:none; border-top:none;}
+.seo{ border:1px solid #000000; float:left; border-bottom:none;}
+.web{ border:1px solid #000000; float:left;}
+
+#side{
+	width:199px;
+	height:auto;
+	background-color:#FFFFFF;
+	float:right;
+	border-left:1px solid #000000;
+}
+@media screen and (max-width:650px) {
+	#side {
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width:650px) {
+	#side .otherlinks{
+		width:100% !important;
+	}
+	
+}
+.sidlinks ul{padding:0; margin:0; }
+.sidlinks ul li{
+	list-style:none;
+	line-height:2em;
+	background-color:#333333;
+	border-bottom:1px solid #000000; 
+}
+.sidlinks ul a{color:aliceblue; font-size:18px; 	text-decoration: none;
+}
+.sidlinks ul li a:hover{color:#FFFFFF;	text-decoration: underline;}
+
+#footer{
+	width:700px;
+	height:200px;
+	background-color:#33CCFF;
+	clear:both;
+}
+
+@media screen and (max-width:650px) {
+	#footer {
+		width:100%;
+	}
+	
+}
+.footlinks ul{padding:0; margin:0;}
+.footlinks ul li{list-style:none; padding-top:5px;}
+.footlinks ul li a{color:#333333; text-decoration:none; font-family:"Courier New", Courier, monospace; font-size:18px;}
+
+.footlinks ul li a:hover{color:#666666; text-decoration:underline;}
+

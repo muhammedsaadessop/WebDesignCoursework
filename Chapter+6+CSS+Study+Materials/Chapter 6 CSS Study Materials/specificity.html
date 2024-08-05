@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	CSS Specificity</title>
+	<link rel="stylesheet" href="mycss.css"/>
+	<style>	
+		
+		h1 {
+		background-color:black;
+		color:yellow;
+		}
+		
+	</style>
+	
+</head>
+<!--
+	.h {
+			color:yellow !important;
+		}
+		* {
+			color:green;
+		}
+		::first-line{
+			color:yellow;
+		}
+
+1) * < Pseudo Element
+2) Class < ID < Inline style < !important
+3) Equal properties 
+		1) background-color:yellow;
+		2) background-color:blue; // affected
+4) Internal style have more specificity than External style
+
+-->
+<body>
+	<h1 class="h" id="head" >How are you friends!</h1>
+</body>
+</html>

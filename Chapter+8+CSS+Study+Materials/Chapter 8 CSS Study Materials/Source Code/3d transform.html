@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	CSS 3D Transform</title>
+	<style>	
+
+	#main {
+		width: 300px;
+		height:200px;
+		margin-left:200px;
+		background-color:brown;	
+		}
+	#box {
+		width: 300px;
+		height:200px;
+		background-color:gray;
+		transform:perspective(100px) scale3d(2,2,4) rotateZ(30deg);
+	</style>
+</head>
+<!--
+rotateX(angle)
+rotateY(angle)
+rotateZ(angle)
+rotate3d(x,y,z, angles)
+translateX(x-px)
+translateY(y-px)
+translateZ(z-px) with perspective (to display 3D or 2D view of image)
+translate3d(x,y,z)
+transform: perspective(500px) translate3d(10px, 0, 50px);
+
+scaleZ(z) with rotate
+scale3d(x,y,z) with rotate
+perspective(npx)
+matrix3d(n,n,n,n,n,n,n,n,
+n,n,n,n,n,n,n,n,)
+-->
+<body>
+	<div id = "main">
+		<div id="box">
+			<p>Hi, How are you</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	CSS Visibility</title>
+	<style>	
+	.d1 {
+		width:300px;
+		height:200px;
+		background-color:yellow;
+		float:left;
+		visibility:hidden;
+	}
+	.d2 {
+		width:300px;
+		height:200px;
+		background-color:gray;
+		float:left;	
+	}
+	.d3 {
+		width:300px;
+		height:200px;
+		background-color:pink;
+		float:left;
+		visibility:inherit;
+	}
+	#d4 {
+	visibility:hidden;
+	}
+	#td4 {
+		visibility:collapse;
+	}
+	</style>
+</head>
+<!--
+visible	
+hidden		
+inherit	
+collapse
+-->
+<body>
+	<div class = "d1">d1</div>
+	<div class = "d2">d2</div>
+	<div id="d4">
+	
+	<div class = "d3">d3</div>
+	
+	</div>
+	
+
+<table border="1" width = "">
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td id = "td4">4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+ 
+</table>
+
+</body>
+</html>

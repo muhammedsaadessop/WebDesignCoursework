@@ -1,0 +1,9 @@
+/* This is a comment*/
+
+h1 {
+	text-align:right;	
+}
+
+h1 {
+	text-align:center !important; /* Text will be on center*/	
+}

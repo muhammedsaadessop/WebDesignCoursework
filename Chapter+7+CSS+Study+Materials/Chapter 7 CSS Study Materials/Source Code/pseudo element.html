@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	CSS Pseudo Element</title>
+	<style>	
+		h1::first-letter{
+			color:yellow;
+			font-size:100px;
+		}
+		#para::after{
+			content:"After the p";
+		}
+		#para::before{
+			content:"before the p";
+		}
+		p::first-line{
+			color:white;
+			background-color:black;
+		}
+		p::selection{
+			color:yellow;
+			background-color:black;
+		}
+		::placeholder {
+			color:blue;
+		}
+	</style>
+</head>
+<!--
+Simple selectors
+Combinator selector
+Pseudo-class selectors
+Attribute selectors
+
+Pseudo-element selectors
+::first-letter
+::first-line
+::selection
+::placeholder
+::after
+::before
+-->
+<body>
+	<h1>How are you!</h1>
+	<p id="para">How are you! How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!How are you!</p>
+	<p>2ND paragraph...</p>
+	
+	
+	
+	
+	<form>
+		<label for="first_name" >First Name</label>
+		<input type="text" name="f_name" placeholder="First Name"/>
+		<label for="last_name" >Last Name</label>
+		<input type="text" name="l_name" placeholder="Last Name"/>
+		<label for="email" >Email</label>
+		<input type="email" name="email" placeholder="Email"/>
+		<input type="submit"/>
+				
+	</form>
+
+	
+	
+</body>
+</html>

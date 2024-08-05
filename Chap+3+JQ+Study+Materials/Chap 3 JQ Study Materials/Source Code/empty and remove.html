@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addClass Method in jQuery</title>
+    <script src="../jq/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("div").remove();
+            });
+        });
+    </script>
+    <style>
+        div{
+            background-color: green;
+            width:300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <button>Click me</button>
+    <h1>JafriCode.com</h1>
+    <div>
+        <p>Paragraph inside div</p>
+        text inside div
+        <h3>heading inside h3</h3>
+    </div>
+    <p>JafriCode is the educational website</p>
+</body>
+
+</html>
