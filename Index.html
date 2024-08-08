@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="large-image" onclick="openLightbox();">
+            <img id="displayed-image" src="images/image1.jpg" alt="Large Display">
+        </div>
+        <div class="thumbnails">
+            <img src="images/image1_thumb.jpg" alt="Thumbnail 1" onclick="displayImage('images/image1.jpg')">
+            <img src="images/image2_thumb.jpg" alt="Thumbnail 2" onclick="displayImage('images/image2.jpg')">
+            <img src="images/image3_thumb.jpg" alt="Thumbnail 3" onclick="displayImage('images/image3.jpg')">
+         
+        </div>
+    </div>
+
+ 
+    <div id="lightbox" class="lightbox" onclick="closeLightbox();">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div class="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
